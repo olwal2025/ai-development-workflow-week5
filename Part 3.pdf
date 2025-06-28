@@ -1,0 +1,21 @@
+** Ethics & Bias (10 points) **
+
+Biased training data can lead to unfair treatment of marginalized groups and potentially worsen patient outcomes. 
+For instance, if the model is trained on historical data with disparities, it may underperform on patients from these groups, exacerbating existing health inequities.
+
+**Strategy to Mitigate Bias**
+
+Audit data for representativeness and enforce fairness constraints to prevent biased training data from affecting patient outcomes.
+
+**Trade-offs (10 points)**
+
+The trade-off between model interpretability and accuracy in healthcare is crucial.
+On one hand, models that are highly interpretable can provide valuable insights into clinical decision-making, 
+but they may sacrifice accuracy.
+On the other hand, highly accurate models may be complex and difficult to interpret, potentially leading to unintended consequences.
+
+**Impact of Limited Computational Resources**
+
+If the hospital has limited computational resources, 
+it may impact model choice by favoring simpler models that are less computationally intensive. 
+This could lead to a trade-off between model accuracy and interpretability, as simpler models may be more interpretable but less accurate.
